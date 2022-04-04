@@ -1,0 +1,86 @@
+.main-body {
+  background-image: url("https://cdn.discordapp.com/attachments/894403786666299474/960478220002676746/unknown.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Roboto Slab";
+}
+.main-body h1 {
+  font-size: 64px;
+  margin-bottom: 50px;
+}
+.main-body h4 {
+  font-size: 24px;
+}
+.formcontainer {
+  border: solid 1px;
+  border-color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 50%;
+  border-radius: 10px;
+}
+.formcontainer label {
+  width: 20%;
+  color: white
+}
+.inputcontainer {
+  margin: 10px 0;
+  width: 100%;
+}
+.inputcontainer input{
+  width: 75%;
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px white;
+  color: white;
+}
+.inputcontainer input:focus {
+  outline: none;
+}
+.termsnconditions {
+  display: inline;
+  font-family: "Roboto Slab";
+  color: white;
+  font-size: 16px;
+  align-self: flex-start;
+}
+.termsnconditions span {
+  color: rgb(133, 25, 25) 
+}
+.formcontainer button {
+  margin: 20px 0;
+}
+.danger {
+  color: red;
+  font-size: 10px;
+  margin: 5px 0;
+  align-self: flex-start;
+  display: none;
+}
+.inputcontainer select{
+
+  width: 75%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: solid 1px white;
+  color: white;
+}
+.inputcontainer option {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  outline: none;
+  border: none;
+}

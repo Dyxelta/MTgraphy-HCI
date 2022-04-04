@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Arima+Madurai:wght@400;700&family=Poppins:wght@500&family=Roboto+Slab:wght@600&display=swap');
+body, html {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover, a:active, a:focus{
+  color: #727272;
+}
+h1, h2, h3, h4, h5 {
+  color: white;
+  margin: 0px
+}
+.header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* font-family: "Poppins"; */
+}
+.logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Amarante";
+}
+.logo-main span {
+  color: rgb(102, 0, 0)
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  font-family: "Arima Madurai";
+  font-weight: 700;
+}
+.navbar a {
+  margin-left: 40px;
+}
